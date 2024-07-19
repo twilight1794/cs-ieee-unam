@@ -1,0 +1,35 @@
+---
+layout: null
+sitemap:
+  exclude: true
+---
+<?xml version="1.0" encoding="utf-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:dc="http://purl.org/dc/terms/">
+  {% for page in site.pages %}
+    {% unless page.sitemap.exclude == true %}<url>
+      <dc:title>{{ page.title }}</dc:title>
+      {% if page.author %}<dc:creator> {{ page.author }} </dc:creator>{% endif %}
+      {% if page.date %}<dc:created> {{ page.date }} </dc:created>{% endif %}
+      <loc>{{ site.url }}{{ page.url | remove: "index.html" }}</loc>
+      {% if page.sitemap.lastmod or page.date %}<lastmod>{% if page.sitemap.lastmod %}{{ page.sitemap.lastmod | date_to_xmlschema }}{% elsif page.date %}{{ page.date | date_to_xmlschema }}{% endif %}</lastmod>{% endif %}
+      <changefreq>{% if page.sitemap.changefreq %}{{ page.sitemap.changefreq }}{% else %}monthly{% endif %}</changefreq>
+      <priority>{% if page.sitemap.priority %}{{ page.sitemap.priority }}{% else %}0.3{% endif %}</priority>
+    </url>{% endunless %}
+  {% endfor %}
+  {% for page in site.blog %}<url>
+      <dc:title>{{ page.title }}</dc:title>
+      {% if page.author %}<dc:creator> {{ page.author }} </dc:creator>{% endif %}
+      {% if page.date %}<dc:created> {{ page.date }} </dc:created>{% endif %}
+      <loc>{{ site.url }}{{ page.url }}</loc>
+      {% if page.sitemap.lastmod or page.date %}<lastmod>{% if page.sitemap.lastmod %}{{ page.sitemap.lastmod | date_to_xmlschema }}{% elsif page.date %}{{ page.date | date_to_xmlschema }}{% endif %}</lastmod>{% endif %}
+      <changefreq>{% if page.sitemap.changefreq %}{{ page.sitemap.changefreq }}{% else %}monthly{% endif %}</changefreq>
+      <priority>{% if page.sitemap.priority %}{{ page.sitemap.priority }}{% else %}0.3{% endif %}</priority>
+    </url>{% endfor %}
+    {% for page in site.equipo %}<url>
+      <dc:title>{{ page.title }}</dc:title>
+      <loc>{{ site.url }}{{ page.url }}</loc>
+      {% if page.sitemap.lastmod or page.date %}<lastmod>{% if page.sitemap.lastmod %}{{ page.sitemap.lastmod | date_to_xmlschema }}{% elsif page.date %}{{ page.date | date_to_xmlschema }}{% endif %}</lastmod>{% endif %}
+      <changefreq>{% if page.sitemap.changefreq %}{{ page.sitemap.changefreq }}{% else %}monthly{% endif %}</changefreq>
+      <priority>{% if page.sitemap.priority %}{{ page.sitemap.priority }}{% else %}0.3{% endif %}</priority>
+    </url>{% endfor %}
+</urlset>

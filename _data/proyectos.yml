@@ -1,0 +1,10 @@
+- title: Motor de inteligencia artificial
+  description: Como primer gran proyecto, en el capítulo estamos trabajando en la implementación de una IA interactiva que juega ajedrez con el motor PyGame, para entender mejor cómo funcionan las inteligencias artificiales
+  picture: /assets/images/IMG_20221119_141941_0x_25.jpg
+  srcset: /assets/images/IMG_20221119_141941_0x_25.jpg 1x, /assets/images/IMG_20221119_141941_1x_25.jpg 2x, /assets/images/IMG_20221119_141941_2x_25.jpg 4x, /assets/images/IMG_20221119_141941_4x_25.jpg 8x
+
+- title: Preparación para el IEEEXtreme
+  description: IEEEXtreme es una competencia internacional de programación competitiva anual. En el capítulo, nos estamos preparando para participar en la próxima competencia, que será en octubre.
+  picture: /assets/images/IMG_20221119_141941_0x_25.jpg
+  srcset: /assets/images/IMG_20221119_141941_0x_25.jpg 1x, /assets/images/IMG_20221119_141941_1x_25.jpg 2x, /assets/images/IMG_20221119_141941_2x_25.jpg 4x, /assets/images/IMG_20221119_141941_4x_25.jpg 8x
+  url: https://ieeextreme.org/

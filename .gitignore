@@ -1,0 +1,8 @@
+*.jpg
+*.jpeg
+.jekyll-cache
+*.html
+*.xhtml
+!_includes/*.html
+Gemfile.lock
+*.org

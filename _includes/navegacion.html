@@ -1,0 +1,34 @@
+<input type="checkbox" hidden="hidden" role="none" id="menudesplegado" />
+<div>
+    <label for="menudesplegado" role="button" tabindex="0">✗</label>
+    <nav><ul>
+        {% for item in site.data.navegacion %}
+        {% unless item.hidden %}
+        <li><a href="{{ item.link }}" {% if page.url == item.link %}id="aqui"{% endif %}>{{ item.name }}</a></li>
+        {% endunless %}
+        {% endfor %}
+    </ul></nav>
+    <footer>
+        <ul id="redesorg" class="enlaceicono" aria-label="¡Síguenos en nuestras redes!">{% for item in site.social.links %}
+            {% if item contains "facebook" %}<li><a href="{{ item }}">Facebook</a></li>{% endif %}
+            {% if item contains "twitter" %}<li><a href="{{ item }}">Twitter</a></li>{% endif %}
+            {% if item contains "instagram" %}<li><a href="{{ item }}">Instagram</a></li>{% endif %}
+            {% if item contains "github" %}<li><a href="{{ item }}">GitHub</a></li>{% endif %}
+            {% if item contains "@" %}<li><a href="{{ item }}">Correo electrónico</a></li>{% endif %}
+            {% if item contains "feed.xml" %}<li><a href="{{ item }}">RSS</a></li>{% endif %}
+        {% endfor %}</ul>
+        <ul id="enlacesutiles" aria-label="Enlaces de interés">
+            <li><a href="/sitemap.xml">Mapa de sitio</a></li>
+            <li><a href="https://www.computer.org/">Computer Society</a></li>
+            <li><a href="https://r9.ieee.org/">IEEE región 9</a></li>
+            <li><a href="https://www.ieee.org/">IEEE</a></li>
+        </ul>
+        <div id="copyright">
+            <p>🄯 2023 Capítulo estudiantil IEEE CS UNAM</p>
+        </div>
+    </footer>
+</div>
+<label for="menudesplegado" role="button" tabindex="0"><span>Cerrar</span></label>
+<dialog id="cuadroBusq"><div>
+  <button>✗</button><input placeholder="Escribe..."><ul></ul>
+</div></dialog>

@@ -1,0 +1,20 @@
+- name: Inicio
+  link: /
+- name: Sobre nosotros
+  link: /acerca-de.html
+- name: Equipo
+  link: /equipo.html
+- name: Proyectos
+  link: /proyectos.html
+- name: Blog
+  link: /blog.html
+- name: Únete
+  link: /unete.html
+- name: Cursos
+  link: /cursos.html
+  hidden: yes
+- name: Eventos
+  link: /eventos.html
+  hidden: yes
+- name: Recursos
+  link: /recursos.html

@@ -1,0 +1,29 @@
+---
+layout: null
+sitemap:
+  exclude: true
+---
+<?xml version="1.0" encoding="utf-8" ?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator>
+    <link href="{{ site.url }}/feed.xml" rel="self" type="application/atom+xml" />
+    <link href="{{ site.url }}" type="text/html" />
+    <updated>2023-03-01T23:56:07-06:00</updated>
+    <id>{{ site.url }}/feed.xml</id>
+    <title type="html">IEEE CS UNAM</title>
+    <subtitle>Capítulo estudiantil de la Sociedad de Computación de la IEEE en la UNAM</subtitle>
+    {% for page in site.blog %}
+    <entry>
+        <title>{{ page.title }}</title>
+        <link href="{{ site.url }}{{ page.url }}" />
+        <!--<link rel="alternate" type="text/html" href="http://example.org/2003/12/13/atom03.html"/>-->
+        <published>{{ page.date | date: "%Y-%m-%d" }}</published>
+        <updated>{% if page.sitemap.lastmod %}{{ page.sitemap.lastmod | date: "%Y-%m-%d" }}{% endif %}</updated>
+        <summary>{{ page.excerpt }}</summary>
+        <content type="xhtml">{{ page.content }}</content>
+        <author>
+            <name>{{ page.author }}</name>
+        </author>
+    </entry>
+    {% endfor %}
+</feed>

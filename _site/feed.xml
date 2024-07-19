@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator>
+    <link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" />
+    <link href="http://localhost:4000" type="text/html" />
+    <updated>2023-03-01T23:56:07-06:00</updated>
+    <id>http://localhost:4000/feed.xml</id>
+    <title type="html">IEEE CS UNAM</title>
+    <subtitle>Capítulo estudiantil de la Sociedad de Computación de la IEEE en la UNAM</subtitle>
+    
+    <entry>
+        <title>Día de muertos</title>
+        <link href="http://localhost:4000/blog/dia-de-muertos.html" />
+        <!--<link rel="alternate" type="text/html" href="http://example.org/2003/12/13/atom03.html"/>-->
+        <published>2022-11-02</published>
+        <updated></updated>
+        <summary><p>El 2 de noviembre es un día especial para los mexicanos, es un día en que podemos recordar a aquellos que ya se fueron y saber que regresan y nos acompañan en estos días. Mantengamos vivas nuestras tradiciones.</p>
+</summary>
+        <content type="xhtml"><p>El 2 de noviembre es un día especial para los mexicanos, es un día en que podemos recordar a aquellos que ya se fueron y saber que regresan y nos acompañan en estos días. Mantengamos vivas nuestras tradiciones.</p>
+
+<p><img src="/assets/images/n.jpg" alt="Minion" /></p>
+
+<p>#somoswieunam #somosieee #mujereseningenieria #2denoviembre #DiaDeMuertos</p>
+</content>
+        <author>
+            <name>campanita</name>
+        </author>
+    </entry>
+    
+    <entry>
+        <title>Primer aniversario de WIE UNAM</title>
+        <link href="http://localhost:4000/blog/primer-aniversario-wie-unam.html" />
+        <!--<link rel="alternate" type="text/html" href="http://example.org/2003/12/13/atom03.html"/>-->
+        <published>2022-12-02</published>
+        <updated></updated>
+        <summary><p>¡Es hoy, es hoy!🤩🤩🤩</p>
+</summary>
+        <content type="xhtml"><p>¡Es hoy, es hoy!🤩🤩🤩</p>
+
+<p>Hoy queremos celebrar nuestro primer aniversario de nuestra agrupación WIE UNAM🥳🥳🥳, recordando los momentos agradables que hemos tenido en este primer año💜, el día 13 de noviembre de 2021 tuvimos nuestra presentación como agrupación de la Rama Estudiantil IEEE😁, con el apoyo de todos nuestros compañeros de la rama. Nos sentimos muy contentas de lo que hemos logrado y esperamos llegar más lejos.✨</p>
+
+<p>#SomosWIEUNAM #SomosIEEEUNAM #WIEIEEE #Mujeresenlaingenieria #1eraniversarioWIEUNAM #Esperalo13nov2021 #unam #fiunam</p>
+</content>
+        <author>
+            <name>eneri</name>
+        </author>
+    </entry>
+    
+</feed>

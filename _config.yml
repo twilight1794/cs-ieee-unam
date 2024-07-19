@@ -1,0 +1,47 @@
+collections:
+    equipo:
+        output: true
+    blog:
+        output: true
+
+defaults:
+    - scope:
+        path: ""
+        type: "equipo"
+      values:
+        layout: "equipo"
+    - scope:
+        path: ""
+        type: "blog"
+      values:
+        layout: "blog"
+    - scope:
+        path: ""
+      values:
+        layout: "predeterminado"
+
+plugins:
+  - jekyll-seo-tag
+
+#timezone: America/Mexico_City
+encoding: utf-8
+
+title: IEEE CS UNAM
+description: Capítulo estudiantil de la Sociedad de Computación de la IEEE en la UNAM
+# permalink: /:categories/:year/:month/:day/:title.html
+url: https://rapunzel.nfshost.com
+
+social:
+    links:
+      - https://www.facebook.com/profile.php?id=100088371027774
+      - https://www.instagram.com/ieee.cs.unam
+      - https://github.com/IEEE-CS-UNAM
+      - mailto:ieee.unam.cs@gmail.com
+      - /feed.xml
+
+#logo: /assets/images/.png
+
+#webmaster_verifications:
+#   google:
+#   bing:
+#   facebook:

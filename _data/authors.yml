@@ -1,0 +1,51 @@
+ruyca:
+    name: Ruy Cabello
+    position: Presidente
+    board: true
+    picture: https://avatars.githubusercontent.com/u/83605073?v=4
+    github: ruyca
+    instagram: ruy.cabello
+
+kilomilo:
+    name: Emilio Cruz
+    position: Vicepresidente
+    board: true
+    picture: https://avatars.githubusercontent.com/u/124218852?v=4
+    github: kiloMilo
+    instagram: cruz_emiii
+
+marcobjz:
+    name: Marco Robles
+    position: Tesorero
+    board: true
+    picture: https://www.gravatar.com/avatar/00000000000000000000000000000010?d=identicon&s=250
+    instagram: marcobjz
+
+campanita:
+    name: Giovanni Garciliano
+    position: Webmaster
+    board: true
+    picture: https://avatars.githubusercontent.com/u/11619974?v=4
+    url: https://www.campanita.xyz/
+    _facebook: twilight1794
+    twitter: twilight1794
+    github: twilight1794
+    gitlab: twilight1794
+    _instagram: tinkerbell1794
+    _email: rapunzel@disroot.org
+
+eneri:
+    name: Eneri Aric
+    position: Integrante
+    board: false
+    _picture: https://instagram.fmex15-1.fna.fbcdn.net/v/t51.2885-15/313297634_808027270457822_4670211561150285917_n.webp?stp=dst-jpg_e35&_nc_ht=instagram.fmex15-1.fna.fbcdn.net&_nc_cat=102&_nc_ohc=qjv_dij1dZsAX-r-2v4&edm=ACWDqb8BAAAA&ccb=7-5&ig_cache_key=Mjk2MTUxNjAyNTc3ODg1MDQ4Nw%3D%3D.2-ccb7-5&oh=00_AfCoNZ5QfkUg-UpWXIKaV0b5KUSR1RkwS6eKgOfj74bU9w&oe=63E9A315&_nc_sid=1527a3
+    picture: https://avatars.githubusercontent.com/u/113216104?v=4
+    github: Nrikuik
+    instagram: NriKuik
+
+gunnar:
+    name: Gunnar Wolf
+    position: Asesor
+    board: true
+    picture: https://pbs.twimg.com/profile_images/2452956000/gwolf_bosnia_400x400.jpg
+    url: https://gwolf.org

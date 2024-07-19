@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:dc="http://purl.org/dc/terms/">
+  
+    <url>
+      <dc:title>Sobre nosotros</dc:title>
+      
+      
+      <loc>http://localhost:4000/acerca-de.html</loc>
+      
+      <changefreq>monthly</changefreq>
+      <priority>0.3</priority>
+    </url>
+  
+    <url>
+      <dc:title>Blog</dc:title>
+      
+      
+      <loc>http://localhost:4000/blog.html</loc>
+      
+      <changefreq>monthly</changefreq>
+      <priority>0.3</priority>
+    </url>
+  
+    <url>
+      <dc:title>Equipo</dc:title>
+      
+      
+      <loc>http://localhost:4000/equipo.html</loc>
+      
+      <changefreq>monthly</changefreq>
+      <priority>0.3</priority>
+    </url>
+  
+    
+  
+    <url>
+      <dc:title>IEEE Computer Society UNAM</dc:title>
+      
+      
+      <loc>http://localhost:4000/</loc>
+      
+      <changefreq>monthly</changefreq>
+      <priority>0.3</priority>
+    </url>
+  
+    <url>
+      <dc:title>Proyectos</dc:title>
+      
+      
+      <loc>http://localhost:4000/proyectos.html</loc>
+      
+      <changefreq>monthly</changefreq>
+      <priority>0.3</priority>
+    </url>
+  
+    <url>
+      <dc:title>Recursos</dc:title>
+      
+      
+      <loc>http://localhost:4000/recursos.html</loc>
+      
+      <changefreq>monthly</changefreq>
+      <priority>0.3</priority>
+    </url>
+  
+    
+  
+    <url>
+      <dc:title>Únete</dc:title>
+      
+      
+      <loc>http://localhost:4000/unete.html</loc>
+      
+      <changefreq>monthly</changefreq>
+      <priority>0.3</priority>
+    </url>
+  
+  <url>
+      <dc:title>Día de muertos</dc:title>
+      <dc:creator> campanita </dc:creator>
+      <dc:created> 2022-11-02 00:00:01 -0600 </dc:created>
+      <loc>http://localhost:4000/blog/dia-de-muertos.html</loc>
+      <lastmod>2022-11-02T00:00:01-06:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.3</priority>
+    </url><url>
+      <dc:title>Primer aniversario de WIE UNAM</dc:title>
+      <dc:creator> eneri </dc:creator>
+      <dc:created> 2022-12-02 00:00:01 -0600 </dc:created>
+      <loc>http://localhost:4000/blog/primer-aniversario-wie-unam.html</loc>
+      <lastmod>2022-12-02T00:00:01-06:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.3</priority>
+    </url>
+    <url>
+      <dc:title>Campanita</dc:title>
+      <loc>http://localhost:4000/equipo/campanita.html</loc>
+      <lastmod>2023-03-11T09:30:37-06:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.3</priority>
+    </url><url>
+      <dc:title>Eneri</dc:title>
+      <loc>http://localhost:4000/equipo/eneri.html</loc>
+      <lastmod>2023-03-11T09:30:37-06:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.3</priority>
+    </url><url>
+      <dc:title>Kilomilo</dc:title>
+      <loc>http://localhost:4000/equipo/kilomilo.html</loc>
+      <lastmod>2023-03-11T09:30:37-06:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.3</priority>
+    </url><url>
+      <dc:title>Ruyca</dc:title>
+      <loc>http://localhost:4000/equipo/ruyca.html</loc>
+      <lastmod>2023-03-11T09:30:37-06:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.3</priority>
+    </url>
+</urlset>
